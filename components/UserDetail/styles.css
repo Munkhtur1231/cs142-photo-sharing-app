@@ -1,0 +1,20 @@
+.header {
+    padding: 1rem;
+    background: #8fb1fa;
+}
+.detail {
+    padding: 0.6rem;
+}
+.photoLink {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem;
+    margin-left: 0.6rem;
+    background: #333;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+.photoLink:hover {
+    background: #ff741e;
+}

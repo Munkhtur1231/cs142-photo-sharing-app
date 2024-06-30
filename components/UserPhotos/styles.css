@@ -1,0 +1,96 @@
+img {
+    width: 300px;
+    height: 200px;
+}
+.listItem {
+    padding: 1rem;
+}
+.link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+.headerName, .headerComment {
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    background: #B1D4E0;
+}
+.headerName {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+}
+.headerComment {
+    display: inline-block;
+    padding: 0.2rem;
+}
+.bg-light-blue {
+    background: #B1D4E0;
+}
+.back {
+    margin-left: 1rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    border-radius: 3px;
+}
+.btn {
+    display: inline-block;
+}
+.btn-comment {
+    display: inline-block;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+.commentInput {
+    padding: 0.5rem 3rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.mention-suggestion {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .mention-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  .showLikedUsers {
+    width: 200px;
+  }
+  .likedUsersLink {
+    text-decoration: none;
+    display: block;
+    background: #333;
+    color: #fff;
+    padding: 0.3rem;
+    transition: all 0.2s ease;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 0.1rem;
+  }
+  .likedUsersLink:hover {
+    background: chocolate;
+  }
+  .likedUserPhoto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  .likedUserList {
+    display: flex;
+    align-items: center;
+  }
+  .bg-chocolate {
+    background: chocolate;
+  }

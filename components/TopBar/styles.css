@@ -1,0 +1,21 @@
+.cs142-topbar-appBar {
+  height: 60;
+  justify-content: "center";
+}
+input[type="file"] {
+  display: none;
+}
+.file-upload {
+  display: inline-block;
+  padding: 0.5rem 0;
+  margin-top: 0.6rem;
+  background: #333;
+  color:#fff;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  border-radius: 2px;
+  text-align: center;
+}
+.file-upload:hover {
+  background: chocolate;
+}
